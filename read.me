@@ -1,0 +1,38 @@
+Ik verschuif de uitdaging elke keer naar een ander aspect van Fullstack developer zijn.
+Dus deze week is het doel om een bootstrap 3 website(tje) te maken en die op internet te krijgen. Maar niet met ftp en een of andere hostingboer, maar met moderne hippe tools.
+
+We gaan yeoman installeren. Lees zelf meer over wat yeoman is.
+
+stap 0 : `npm install -g generator-javascript `
+
+Yeoman kan projecten genereren, omdat JS projecten opzetten nog steeds anno 2016 veel werk is, zijn er dus tools die dat voor je kunnen. Dit commando maakt een project aan op basis van de populaire ‘Javascript’ template van yeoman. Er zullen wat vragen gesteld worden, enter als je geen antwoord heb. Maar geef wel antwoord op de eerste vraag, de naam van je project. Yeoman zal een map maken met die naam en daar alles installeren.
+
+stap 1 : `yo javascript `
+
+Het is nu weer tijd voor een git commit momentje.
+
+stap 2: `cd <projectnaam>`
+stap 3: `git init`
+stap 4: `git add -A ; git commit -m "een nieuw huiswerk project"`
+
+Je heb nu een vrij uitgebreid project dat je es6/7 code compiled naar es5 voor oude browsers, Eslint word gedraaid die je code controleert op fouten. En heel belangrijk je heb een unit test omgeving. Je wilt niet weten hoeveel werkt het is om al deze  dingen aan elkaar te plakken met de hand.
+
+de opdracht 0:
+run: `npm test`
+Pas de test/GreetingSpec.js aan zodat de test Nederlandse testen verwacht. Dit is wat we noemen Test Driven Development, eerst de tests maken/aanpassen dan pas de code. Voeg tests toe als je wilt.
+
+`git commit`
+
+Nu kan je de src/Greeting.js aanpassen, tot dat `npm test` laat zien dat alle tests slagen.
+
+`git commit`
+
+de opdracht 1: 
+Maak een html pagina waar Bootstrap 3 van de CDN in staat. 
+Gebruik en speel met het bootstrap grid en bijv. de jumbotron component met een achtergrondplaatje. Voel je vrij om ook bijv. jQuery toe te voegen.
+
+met behulp van surge.sh kan je deze site nu deployen naar de internets.  
+
+`git commit`
+
+Als eind opdracht alles gecommit naar github pushen met deze text als `read.me` in de map zetten.
