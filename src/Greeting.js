@@ -10,11 +10,11 @@
 class Greeting {
 
   constructor(name) {
-    this.name = name || 'Guest';
+    this.name = name || 'gast';
   }
 
   hello() {
-    return `Welcome, ${this.name}!`;
+    return `Welkom, ${this.name}!`;
   }
 
 }

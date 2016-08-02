@@ -17,13 +17,13 @@ describe('Greeting', () => {
     it('should return welcome message for a guest user', () => {
       const greeting = new Greeting();
       const message = greeting.hello();
-      expect(message).to.be.equal('Welcome, Guest!');
+      expect(message).to.be.equal('Welkom, gast!');
     });
 
     it('should return welcome message for a named user', () => {
-      const greeting = new Greeting('John');
+      const greeting = new Greeting('Jan');
       const message = greeting.hello();
-      expect(message).to.be.equal('Welcome, John!');
+      expect(message).to.be.equal('Welkom, Jan!');
     });
 
   });
